@@ -1,11 +1,12 @@
 from pprint import PrettyPrinter
 from requests import get
+from api_key import API_KEY
 
 
 URL_API = "https://currency-conversion-and-exchange-rates.p.rapidapi.com"
 
 headers = {
-	"X-RapidAPI-Key": "47b1911f46msh690ad4e9a920259p1787d0jsn5c634e27a7df",
+	"X-RapidAPI-Key": API_KEY,
 	"X-RapidAPI-Host": "currency-conversion-and-exchange-rates.p.rapidapi.com"
 }
 
